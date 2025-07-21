@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Philadelphia Scavenger Hunt</title>
+        <link href="leaflet/leaflet.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="leaflet/leaflet.js"></script>
+        <script src="script.js" type="module"></script>
+    </head>
+
+    <body>
+        <h1>Philadelphia Scavenger Hunt</h1>
+        <div id="clueBox">
+            <p>loading your adventure</p>
+            <p id="distanceDisplay">Distance: </p>
+            <button onclick="resetGame()">Play/reset</button>
+        </div>
+        <div id="map"></div>
+    </body>
+</html>

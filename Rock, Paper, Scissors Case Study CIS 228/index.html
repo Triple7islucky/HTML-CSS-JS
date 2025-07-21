@@ -1,0 +1,56 @@
+<!--Terrence Blocker May 12, 2025  This is the Rock, Paper, Scissors Case Study for CCP CIS 228 index-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rock, Paper, Scissors</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="rps.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+  <header>
+    <h1>Rock, Paper, Scissors</h1>
+  </header>
+
+  <section id="leader">
+    <h2 id="current-score">0 - 0 - 0</h2>
+  </section>
+
+  <aside id="human">
+    <select id="choice">
+    <option value="rock">Rock</option>
+    <option value="paper">Paper</option>
+    <option value="scissors">Scissors</option>
+    </select>
+  </aside>
+
+  <aside id="human-deck">
+    <h3 id="result-human">&nbsp;</h3>
+    <img src="person.svg" alt="human icon">
+    <img id="human-deck-choice" src="rock-paper-scissors-rock.svg" alt="rock">
+    <button id="shoot">Shoot!</button>
+  </aside>
+
+  <main>
+    <p>
+      <img class="human" id="human-shoot" src="rock-paper-scissors-paper.svg" alt="paper">
+      <img id="computer-shoot" src="rock-paper-scissors-rock.svg" alt="rock">
+    </p>
+  </main>
+
+  <aside id="computer-deck">
+    <h3 id="result-computer">&nbsp;</h3>
+    <img src="monitor.svg" alt="robot icon">
+    <img id="computer-deck-choice" src="question.svg" alt="question mark">
+  </aside>
+
+  </div>
+
+</body>
+</html>

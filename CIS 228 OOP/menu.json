@@ -1,0 +1,52 @@
+[
+    {
+        "foodName": "Healthy Tuna Salad",
+        "foodType": "lunch",
+        "price": 6.99,
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "foodName": "Carolina Reaper Chicken Tacos",
+        "foodType": "lunch",
+        "price": 8.90,
+        "isVegan": false,
+        "isSpicy": true
+    },
+    {
+        "foodName": "Smashed Chickpea Salad Wraps",
+        "foodType": "lunch",
+        "price": 7.50,
+        "isVegan": true,
+        "isSpicy": false
+    },
+    {
+        "foodName": "3 Chocolate Chip Cookies",
+        "foodType": "dessert",
+        "price": 6,
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "foodName": "Beef and Ground Beef Rice Bowl",
+        "foodType": "lunch",
+        "price": 9.50,
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "foodName": "Spicy Miso Ramen (Vegan)",
+        "foodType": "lunch",
+        "price": 6.99,
+        "isVegan": true,
+        "isSpicy": true
+    },
+    {
+        "foodName": "Mason Jar Cake",
+        "foodType": "dessert",
+        "price": 6.99,
+        "isVegan": false,
+        "isSpicy": false
+    }
+
+]

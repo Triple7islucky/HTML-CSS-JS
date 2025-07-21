@@ -1,0 +1,30 @@
+{
+  "locations": [
+    {
+      "name": "Reading Terminal Market",
+      "lat": 39.9532,
+      "lon": -75.1591,
+      "radius": 0.01,
+      "clue": "Seek a place where the past meets the present, a lively hub built in the 1893 that was once home to train passengers and now bustles with merchants and hungry visitors",
+      "image": "images/readingterminal.jpg"
+    },
+
+    {
+      "name": "LOVE Park",
+      "lat": 39.9541,
+      "lon": -75.1656,
+      "radius": 0.01,
+      "clue": "Feel the LOVE in the center of the city.",
+      "image": "images/lovepark.jpg"
+    },
+
+    {
+      "name": "Rocky Statue",
+      "lat": 39.9651,
+      "lon": -75.1793,
+      "radius": 0.01,
+      "clue": "Run like a champ where Rocky stands!",
+      "image": "images/rockystatue.jpg"
+    }
+  ]
+}

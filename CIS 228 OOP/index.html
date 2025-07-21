@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>CCP's Restaurant Menu</h1>
+
+    <div id="filters">
+        <select id="typeFilter">
+            <option value="">All Types</option>
+            <option value="lunch">Lunch</option>
+            <option value="dessert">Dessert</option>
+        </select>
+        <label><input type="checkbox" id="veganFilter"> Vegan</label>
+        <label><input type="checkbox" id="spicyFilter"> Spicy (not your average spice)</label>
+    </div>
+    
+    <div id="menuItems"></div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

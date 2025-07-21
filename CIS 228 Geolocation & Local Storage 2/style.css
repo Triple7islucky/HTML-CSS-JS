@@ -1,0 +1,10 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    color: tan;
+}
+
+#map{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
